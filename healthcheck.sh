@@ -5,7 +5,7 @@ curlCheck() {
   else
     echo "URL request succeeded!"
     return 0
-  fi
+  if
 }
 
 # Wait for initial startup period to avoid unnecessary error logs
